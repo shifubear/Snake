@@ -21,9 +21,9 @@
 		3FE529AC1BEF4C8F00883AF0 /* Head_P2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FE529AA1BEF4C8F00883AF0 /* Head_P2.cpp */; };
 		3FE529AF1BEF4E2F00883AF0 /* tail_orange.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3FE529AD1BEF4E2F00883AF0 /* tail_orange.png */; };
 		3FE529B01BEF4E2F00883AF0 /* tail.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3FE529AE1BEF4E2F00883AF0 /* tail.png */; };
-		3FE529B31BEF507100883AF0 /* Tail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FE529B11BEF507100883AF0 /* Tail.cpp */; };
 		3FE529B51BEF537300883AF0 /* fruit.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3FE529B41BEF537300883AF0 /* fruit.bmp */; };
 		3FE529B81BEF53DD00883AF0 /* Fruit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FE529B61BEF53DD00883AF0 /* Fruit.cpp */; };
+		3FF741BA1D6868DB0024C20B /* Tail.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FF741B81D6868DB0024C20B /* Tail.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,11 +63,11 @@
 		3FE529AB1BEF4C8F00883AF0 /* Head_P2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Head_P2.h; sourceTree = "<group>"; };
 		3FE529AD1BEF4E2F00883AF0 /* tail_orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tail_orange.png; path = ../snake/tail_orange.png; sourceTree = "<group>"; };
 		3FE529AE1BEF4E2F00883AF0 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tail.png; path = ../snake/tail.png; sourceTree = "<group>"; };
-		3FE529B11BEF507100883AF0 /* Tail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tail.cpp; sourceTree = SOURCE_ROOT; };
-		3FE529B21BEF507100883AF0 /* Tail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tail.h; sourceTree = SOURCE_ROOT; };
 		3FE529B41BEF537300883AF0 /* fruit.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = fruit.bmp; path = ../snake/fruit.bmp; sourceTree = "<group>"; };
 		3FE529B61BEF53DD00883AF0 /* Fruit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fruit.cpp; sourceTree = "<group>"; };
 		3FE529B71BEF53DD00883AF0 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		3FF741B81D6868DB0024C20B /* Tail.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tail.cpp; sourceTree = "<group>"; };
+		3FF741B91D6868DB0024C20B /* Tail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tail.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +112,8 @@
 		3FAF487E1BEE1AE700DC9BFE /* snake */ = {
 			isa = PBXGroup;
 			children = (
+				3FF741B81D6868DB0024C20B /* Tail.cpp */,
+				3FF741B91D6868DB0024C20B /* Tail.h */,
 				3FAF487F1BEE1AE700DC9BFE /* main.cpp */,
 				3FAF48901BEE240000DC9BFE /* LTexture.cpp */,
 				3FAF48911BEE240000DC9BFE /* LTexture.h */,
@@ -119,8 +121,6 @@
 				3FE529A61BEF326D00883AF0 /* Head_P1.h */,
 				3FE529AA1BEF4C8F00883AF0 /* Head_P2.cpp */,
 				3FE529AB1BEF4C8F00883AF0 /* Head_P2.h */,
-				3FE529B11BEF507100883AF0 /* Tail.cpp */,
-				3FE529B21BEF507100883AF0 /* Tail.h */,
 				3FE529B61BEF53DD00883AF0 /* Fruit.cpp */,
 				3FE529B71BEF53DD00883AF0 /* Fruit.h */,
 			);
@@ -206,8 +206,8 @@
 			files = (
 				3FE529B81BEF53DD00883AF0 /* Fruit.cpp in Sources */,
 				3FE529A71BEF326D00883AF0 /* Head_P1.cpp in Sources */,
-				3FE529B31BEF507100883AF0 /* Tail.cpp in Sources */,
 				3FAF48921BEE240000DC9BFE /* LTexture.cpp in Sources */,
+				3FF741BA1D6868DB0024C20B /* Tail.cpp in Sources */,
 				3FAF48801BEE1AE700DC9BFE /* main.cpp in Sources */,
 				3FE529AC1BEF4C8F00883AF0 /* Head_P2.cpp in Sources */,
 			);
